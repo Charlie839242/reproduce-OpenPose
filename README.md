@@ -1,5 +1,5 @@
 # reproduce-OpenPose
-a record of using OpenPose.
+a record of using OpenPose.  
 ***该项目主要记录一下首次使用OpenPose的流程。***  
 ## 1. 下载源码  
 &emsp;&emsp;从[OpenPose官网](https://github.com/CMU-Perceptual-Computing-Lab/openpose)下载源码。  
