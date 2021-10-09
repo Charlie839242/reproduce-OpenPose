@@ -10,10 +10,11 @@ a record of using OpenPose.
 ### 2.1 cmake编译  
 &emsp;&emsp;在openpose-master目录下创建build文件夹用来保存编译结果。  
 &emsp;&emsp;按照下图所示点击Configure和Generate。（该步编译会耗费一段时间，因为会自动下载模型文件，opencv等依赖）  
-![image]()   
+![image](https://github.com/Charlie839242/reproduce-OpenPose/img/cmake_0.jpg)  
+![image](https://github.com/Charlie839242/reproduce-OpenPose/img/cmake_1.jpg)   
 ### 2.2 vs2015编译  
 &emsp;&emsp;在openpose-master/build文件夹下，用vs2015打开ALL_BUILD.vcxproj。按照下图生成解决方案。  
-![image]()  
+![image](https://github.com/Charlie839242/reproduce-OpenPose/img/vs2015.jpg)  
 ### 2.3 移动相关文件夹  
 &emsp;&emsp;将openpose-master/build/bin文件夹作为运行的位置。  
 &emsp;&emsp;将openpose-master/build/x64/Release文件下的所有文件移动到openpose-master/build/bin下。  
@@ -25,6 +26,8 @@ a record of using OpenPose.
 OpenPoseDemo.exe --model_pose COCO --net_resolution 320x176  
 后面两项是因为我的电脑配置不够，一运行就会出现out of memory的显卡显存报错，后两项可以减少使用的显存。
 ```
-最后的工程在openpose文件夹下。  
+最后的工程在openpose文件夹下。 
+# 二. 运行OpenPose-tf1.x版本  
+
 
 
