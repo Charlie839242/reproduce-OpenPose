@@ -18,5 +18,13 @@ a record of using OpenPose.
 &emsp;&emsp;将openpose-master/build/bin文件夹作为运行的位置。  
 &emsp;&emsp;将openpose-master/build/x64/Release文件下的所有文件移动到openpose-master/build/bin下。  
 &emsp;&emsp;将openpose-master/models文件夹移动到openpose-master/build/bin下。  
-&emsp;&emsp;点击移动后的models文件夹中的getModels.bat。因为之前模型有可能没下完整。  
+&emsp;&emsp;点击移动后的models文件夹中的getModels.bat。因为之前模型有可能没下完整。 
+## 3. 运行  
+&emsp;&emsp;运行指令  
+```
+OpenPoseDemo.exe --model_pose COCO --net_resolution 320x176  
+后面两项是因为我的电脑配置不够，一运行就会出现out of memory的显卡显存报错，后两项可以减少使用的显存。
+```
+最后的工程在openpose文件夹下。  
+
 
