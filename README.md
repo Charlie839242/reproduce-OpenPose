@@ -26,6 +26,8 @@ a record of using OpenPose.
 OpenPoseDemo.exe --model_pose COCO --net_resolution 320x176  
 后面两项是因为我的电脑配置不够，一运行就会出现out of memory的显卡显存报错，后两项可以减少使用的显存。
 ```
-最后的工程在openpose文件夹下。  
+最后的工程在openpose文件夹下。 
+# 二. 运行OpenPose-tf1.x版本  
+
 
 
