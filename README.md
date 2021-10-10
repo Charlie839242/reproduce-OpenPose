@@ -1,6 +1,6 @@
 # reproduce-OpenPose
-a record of using OpenPose.  
-***该项目主要记录一下首次使用OpenPose的流程。***  
+***a record of using some pose estimation.***    
+***该项目主要记录一下运行一些姿态识别模型的过程。***  
 # 一. 直接运行OpenPose  
 ## 1. 下载源码  
 &emsp;&emsp;从[OpenPose官网](https://github.com/CMU-Perceptual-Computing-Lab/openpose)下载源码。  
