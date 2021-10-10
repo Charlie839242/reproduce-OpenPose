@@ -29,7 +29,7 @@ OpenPoseDemo.exe --model_pose COCO --net_resolution 320x176
 最后的工程在openpose文件夹下。 
 # 二. 运行OpenPose-tf1.x版本  
 &emsp;&emsp;直接下载***lightweight_openpose-tf1.x***文件夹。  
-该文件夹下的工程基于[lightweight-OpenPose](https://github.com/murdockhou/lightweight_openpose)进行了一些改动。  
+&emsp;&emsp;该文件夹下的工程基于[lightweight-OpenPose](https://github.com/murdockhou/lightweight_openpose)进行了一些改动。  
 ```
 python camera.py
 tensorflow的版本是2.3.0
@@ -37,12 +37,12 @@ tensorflow的版本是2.3.0
 在不用显卡推理的情况下，帧数能达到11帧。  
 # 三. 运行OpenPose-pytorch版本  
 &emsp;&emsp;直接下载***lightweight_openpose-pytorch***文件夹。  
-该文件夹下的工程基于[lihjtweiht-OpenPose-pytorch](https://github.com/Daniil-Osokin/lightweight-human-pose-estimation.pytorch)进行了一些改动。  
+&emsp;&emsp;该文件夹下的工程基于[lihjtweiht-OpenPose-pytorch](https://github.com/Daniil-Osokin/lightweight-human-pose-estimation.pytorch)进行了一些改动。  
 ```
 D:\Pycharm\Python3_8_10\python.exe demo.py --checkpoint-path checkpoint_iter_370000.pth --video 0
 进行摄像头图像测试。
 ```
-pytorch版本明显慢于tensorflow版本，帧数只有三四帧。  
+&emsp;&emsp;pytorch版本明显慢于tensorflow版本，帧数只有三四帧。  
 # 四. 
 
 
